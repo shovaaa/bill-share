@@ -1,0 +1,46 @@
+body{
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+label{
+    font-size: large;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+button{
+    font-family: monospace;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.display{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: -50%, -50%;
+    width: 500px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid grey;
+    
+    
+}

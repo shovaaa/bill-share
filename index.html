@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+
+    </head>
+    <body>
+        <h1>How much should I pay?</h1>
+        <div>
+            <label>Bill Amount&nbsp;</label>
+            <input type="text" id="bill-amount" ><br>
+            <label>Tip percent&nbsp; </label>
+            <input type="text" id="tip-percent" placeholder="%"><br>
+            <label>Divide By&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="divide" placeholder="No. of people sharing the bill">
+        </div>
+        <div>
+            <button type="reset" id="reset-btn">Clear</button>
+            <button type="submit" id="calc-btn">Calculate</button>
+            <hr>
+        </div>
+        <div>
+            <h2 style="margin-top: 30px;">You should pay</h2>
+            <div class="display" id="result"></div>
+            <span id="info"></span>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
