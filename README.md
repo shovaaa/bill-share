@@ -8,3 +8,4 @@ After the user inputs all the required information, the calculated share will be
 
 User can press the clear button to clear all the information and start a new calculation.
 
+Try it yourself: https://shovaaa.github.io/bill-share/
